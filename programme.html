@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>
+    <title>PROGRAMME</title>
+</head>
+<body>
+    <nav id="main-menu">
+        <ul class="nav-bar">
+            <li class="nav-button-home"><a href="index.html">HOME</a></li>
+            <li class="nav-button-about"><a href="about.html">ABOUT</a></li>
+            <li class="nav-button-programme"><a href="programme.html">PROGRAMME</a></li>
+            <li class="nav-button-resources"><a href="resources.html">RESOURCES</a></li>
+            <li class="nav-button-news"><a href="news.html">NEWS</a></li>
+            <li class="nav-button-contact"><a href="contact.html">CONTACT</a></li>
+
+
+        </ul>
+   </nav>      
+   <div>
+    <h1><span class="highlight">PROGRAMME</span></h1>
+ </div>
+
+ <div>
+    <h2>Highlighted text</h2>
+    </div>
+    <article>
+       A <mark class="theme-pink">marker pen</mark>, fineliner, marking pen, felt-tip marker, felt-tip pen, flow, marker or texta (in Australia) or sketch pen (in India), is a pen <mark class="theme-blue">which has its own ink-source</mark>, and a tip made of porous, pressed fibers such as felt. A permanent marker consists of a container (glass, aluminum or plastic) and a core of an absorbent material. This filling serves as a carrier for the ink. The upper part of the <mark class="theme-yellow">marker contains the nib that was made in earlier time of a hard felt material</mark>, and a cap to prevent the marker from drying out. Until the early 1990s the most common solvents that were used for the ink were toluene and xylene. These two substances are <mark class="theme-green">both harmful and characterized</mark> by a very strong smell. Today, the ink is usually made on the basis of alcohols (e.g. 1-propanol, 1-butanol, diacetone alcohol and cresols). Markers may be waterproof, dry-erase, or permanent which will be further expanded on in this article.
+          </article>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">Session 1</div>
+            <div class="grid-item">Session 2</div>
+            <div class="grid-item">Session 3</div>
+            <div class="grid-item">Session 4</div>
+            <div class="grid-item">Session 5</div>
+            <div class="grid-item">Session 6</div>
+            <div class="grid-item">Session 7</div>
+            <div class="grid-item">Session 8</div>
+            <div class="grid-item">Session 9</div>
+          </div>
+    
+    
+
+ <div>
+    <div data-tockify-component="calendar" data-tockify-calendar="in.session"></div>
+    <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+ </div>
+ <div class="footer">
+    <p>Website by Eirene Wallace</p>
+  </div>
+</body>
+</html>
